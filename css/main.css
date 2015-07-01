@@ -1,11 +1,18 @@
 body{
 	background-color: #57BCAF;
 	color:#E9EDCB;
+	font-family: Helvetica,monospace;
+	font-size: 20px;
+	font-style: italic;
+	font-variant: small-caps;
+	font-weight: lighter;
+	line-height: 1.2em;
 }
 header{
 	background:#17102E;
-	font-size: 24px;
+	font-size: 2em;
 	text-align: center;
+	text-shadow:-3px 2px 5px #57BCAF;
 }
 
 .logo{
@@ -17,6 +24,15 @@ header{
 
 nav{
 	background-color: #428292 ;
+}
+.menu{
+	text-align: center;
+}
+
+.menu li{
+	display: inline-block;
+	font-size: 18px;
+	margin: 0;
 }
 
 footer{
