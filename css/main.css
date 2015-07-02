@@ -1,40 +1,82 @@
 body{
-	background-color: #57BCAF;
-	color:#E9EDCB;
-	font-family: Helvetica,monospace;
-	font-size: 20px;
+	background-color: #94BF6E;
+	color:#F1F2EB;
+	font-family: "Palatino Linotype", serif;
+	font-size:22px;
 	font-style: italic;
 	font-variant: small-caps;
 	font-weight: lighter;
 	line-height: 1.2em;
 }
-header{
-	background:#17102E;
-	font-size: 2em;
-	text-align: center;
-	text-shadow:-3px 2px 5px #57BCAF;
+
+li{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 24px;
+	list-style-image: url('../img/forward.png');
 }
 
-.logo{
+a{
+	color: #444;
+	text-decoration: none;
 }
-.logo img{
-	width: 250px;	
-	border-radius: 50%;
+
+header {
+	background-color:#357F58;
+	border: solid #181818 1.5px;
+	color: #d7ceb2;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.5em;
+	font-weight:bold;
+	letter-spacing: 8px;
+	text-align: center;
+	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 3px 0px #357F58, 5px 5px 0px #5c5f72;
+}
+header h1{
+	display: inline-block;
+	margin: 22px;
+	padding: 3px;
+}
+header p{
+	font-size: .6em;
+	margin: 2px;
+	padding: 1px;
+	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 nav{
-	background-color: #428292 ;
-}
-.menu{
+	background-color: #3B8D61;
+	border: solid #181818 1.5px;
+	border-top: none;
+	border-radius: 0 0 5px 5px;
 	text-align: center;
 }
 
-.menu li{
-	display: inline-block;
-	font-size: 18px;
+.menu{
 	margin: 0;
+}
+.menu li{
+	margin: 3px 11px;
+}
+
+.menu a:hover{
+	color: white;
+	font-size: 1.5em;
+	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.descripcion{
+	overflow: hidden;
+}
+
+.imagenPrincipal{
+	float: right;
+}
+.imagenPrincipal img{
+	border: 2.2px #e8e8e8 solid;
+	max-height: 600px;
 }
 
 footer{
-	background-color: #50A49F;
+	text-align: center;
 }
