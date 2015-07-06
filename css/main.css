@@ -2,40 +2,30 @@ body{
 	background-color: #94BF6E;
 	color:#F1F2EB;
 	font-family: "Palatino Linotype", serif;
-	font-size:22px;
+	font-size:1.375em;
 	font-style: italic;
-	font-variant: small-caps;
 	font-weight: lighter;
-	line-height: 1.2em;
-}
-
-li{
-	display: inline-block;
-	text-decoration: none;
-	font-size: 24px;
-	list-style-image: url('../img/forward.png');
-}
-
-a{
-	color: #444;
-	text-decoration: none;
+	line-height: 1.62em;
 }
 
 header {
-	background-color:#357F58;
+	background: linear-gradient(180deg,#347D56, #429E6D,#347D56);
 	border: solid #181818 1.5px;
 	color: #d7ceb2;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family:"Book Antiqua", serif;
 	font-size: 1.5em;
+	font-variant: small-caps;
 	font-weight:bold;
-	letter-spacing: 8px;
+	letter-spacing: 0.3em;
 	text-align: center;
-	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 3px 0px #357F58, 5px 5px 0px #5c5f72;
+	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 3px 0px #3B8D61, 5px 5px 0px #5c5f72;
 }
 header h1{
 	display: inline-block;
 	margin: 22px;
+	margin-top: 30px;
 	padding: 3px;
+	padding-top: 15px
 }
 header p{
 	font-size: .6em;
@@ -45,33 +35,71 @@ header p{
 }
 
 nav{
-	background-color: #3B8D61;
+	background-color: #357F58;
 	border: solid #181818 1.5px;
 	border-top: none;
 	border-radius: 0 0 5px 5px;
-	text-align: center;
+	font-variant: small-caps;
+	box-shadow: inset 0 9px 7px rgba(22,87,81,0.3);
 }
 
-.menu{
+.menu {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 	margin: 0;
+	padding-left: 0;
 }
 .menu li{
-	margin: 3px 11px;
+	display: inline;
+	flex-grow:1;
+	font-weight: bold;
+	text-align: center;
 }
 
 .menu a:hover{
 	color: white;
 	font-size: 1.5em;
+	/*list-style-image: url('../img/forward.png');*/
 	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.menu a{
+	color: #E0D5AD;
+	text-decoration: none;
+}
+
+section{
+	color: #424242;
+	font-family:"Times New Roman",Helvetica, serif;
+}
+
 .descripcion{
+	background-color: #8AB267;
+	border-radius: 10px;
+	color: #F8F3FA;
+	/*display: flex;
+	flex-direction: column;*/
 	overflow: hidden;
+	margin: 1em;
+	line-height: 1.5em;
+}
+.descripcion h2,.descripcion h3{
+	color: #03658C;
+	margin: .3em;
+	padding: 2px;
+}
+.descripcion p{
+	margin: .2em;
+	padding: 0.7em;
+	padding-top: .05em;
 }
 
 .imagenPrincipal{
+	display:block;
 	float: right;
 }
+
 .imagenPrincipal img{
 	border: 2.2px #e8e8e8 solid;
 	max-height: 600px;
