@@ -135,31 +135,48 @@ article p{
 	background-color: #94B6CC;
 }
 
-#habilidades{
+.skills div{
+	width: 600px;
 	background-color: #95C7DD;
 	margin: 1em;
 	padding: 1em;
 	border-radius: 4px;
 }
 
-#habilidades div{
-	width: 200px;
+.skills div p{
+	text-align: center;
+	width: 100px;
 	height: 1em;
 	margin: .5em .3em;
 	padding: 5px;
+	line-height: 1em;
 	color: white;
 	background-color: #ED8029;
 	border-radius: 3px;
 	border: solid 2px #5e5e5e;
 }
 
-.acerca:hover #habilidades div{
-	width: 30em;
-	-webkit-transition: 3s linear;
-	-moz-transition: 3s linear;
-	-o-transition: 3s linear;
-	-ms-transition: 3s linear;
-	transition: 3s linear;
+.acerca:hover .skills div p{
+	-webkit-transition: 2s linear;
+	-moz-transition: 2s linear;
+	-o-transition: 2s linear;
+	-ms-transition: 2s linear;
+	transition: 2s linear;
+}
+.acerca:hover .skills div .hab-html{
+	width: 50%;
+}
+.acerca:hover .skills .hab-css{
+	width: 60%;
+}
+.acerca:hover .skills .hab-js{
+	width: 70%;
+}
+.acerca:hover .skills .hab-bs{
+	width: 80%;
+}
+.acerca:hover .skills .hab-php{
+	width: 90%;
 }
 
 .contacto{
